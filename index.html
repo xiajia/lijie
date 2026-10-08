@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10151b">
+  <meta name="description" content="Pipefitter Field Toolkit for iPhone and iPad. Calculate offsets, cut lengths and fractions, organize job records, and create PDF cut sheets. Offline tools. One-time Pro upgrade.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pipefitter Field Toolkit — Pipe math. Job ready.">
+  <meta property="og:description" content="From your first measurement to a cut sheet you can share. Explore four field calculators, job records, interactive widgets, and more.">
+  <title>Pipefitter Field Toolkit — Pipe math. Job ready.</title>
+  <link rel="icon" type="image/png" href="website-assets/app-icon.png">
+  <link rel="stylesheet" href="website-assets/site.css">
+  <script defer src="website-assets/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></symbol>
+    <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="offset-icon" viewBox="0 0 24 24"><path d="M3 19h5l8-14h5M8 19V5h8"/></symbol>
+    <symbol id="rolling-icon" viewBox="0 0 24 24"><path d="m3 18 6 3 12-15-6-3ZM9 21V9m-6 9V6l12-3M3 6l6 3 12-3"/></symbol>
+    <symbol id="cut-icon" viewBox="0 0 24 24"><path d="M4 9h16v6H4zM8 5v14M16 5v14M2 3l20 18"/></symbol>
+    <symbol id="math-icon" viewBox="0 0 24 24"><path d="M3 7h8M7 3v8m8-4h6M4 15l6 6m0-6-6 6m12-5h5m-5 4h5"/></symbol>
+    <symbol id="folder-icon" viewBox="0 0 24 24"><path d="M3 7V4h7l2 3h9v13H3ZM7 12h10m-10 4h6"/></symbol>
+    <symbol id="document-icon" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6ZM15 3v5h4M9 12h7m-7 4h7"/></symbol>
+    <symbol id="widget-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="18" height="7" rx="1"/></symbol>
+    <symbol id="lock-icon" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V6a4 4 0 0 1 8 0v4M12 14v3"/></symbol>
+    <symbol id="backup-icon" viewBox="0 0 24 24"><path d="M5 12a7 7 0 1 1 2 5M2 9l3 3 3-3M12 7v6l4 2"/></symbol>
+    <symbol id="globe-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></symbol>
+    <symbol id="ruler-icon" viewBox="0 0 24 24"><path d="M3 7h18v10H3ZM7 7v5m4-5v3m4-3v5m4-5v3"/></symbol>
+    <symbol id="spark-icon" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Pipefitter Field Toolkit home">
+        <img src="website-assets/app-icon.png" width="42" height="42" alt="">
+        <span>PIPEFITTER<small>FIELD TOOLKIT</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="main-navigation" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
+      <nav id="main-navigation" class="main-navigation" aria-label="Main navigation">
+        <a href="#tools">The tools</a>
+        <a href="#workflow">The workflow</a>
+        <a href="#widgets">Widgets</a>
+        <a href="#plans">Free &amp; Pro</a>
+        <a class="nav-cta" href="#availability">Coming soon <svg class="icon"><use href="#arrow"/></svg></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero dark-section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> BUILT FOR THE FIELD</p>
+          <h1>PIPE MATH.<br><span>JOB READY.</span></h1>
+          <p class="hero-description">From your first measurement to a cut sheet you can share. Offsets, cut lengths, fractions, and job records—in one toolkit for iPhone and iPad.</p>
+          <div class="button-row">
+            <a class="button button-amber" href="#tools">Explore the toolkit <svg class="icon"><use href="#arrow"/></svg></a>
+            <button class="button button-outline" type="button" data-open-demo><svg class="icon play-icon"><use href="#play"/></svg> Watch the demo</button>
+          </div>
+          <p class="hero-meta">iOS &amp; iPadOS 17+ <span>•</span> English &amp; Español</p>
+          <div class="hero-proof"><span><svg class="icon"><use href="#check"/></svg> Offline calculations</span><span><svg class="icon"><use href="#check"/></svg> No account. No ads.</span></div>
+        </div>
+        <div class="hero-stage" aria-label="Actual Pipefitter calculator screens">
+          <div class="stage-grid" aria-hidden="true"></div>
+          <span class="stage-label stage-label-top" aria-hidden="true">FIELD NOTES / 001</span>
+          <div class="phone hero-phone hero-phone-back"><img src="website-assets/rolling.png" alt="Rolling Offset in dark mode, showing an offset diagram and calculated results" width="1206" height="2622" fetchpriority="high"></div>
+          <div class="phone hero-phone hero-phone-front"><img src="website-assets/offset.png" alt="Simple Offset results with Travel, Run, and an option to continue to Cut Length" width="1206" height="2622" fetchpriority="high"></div>
+          <div class="stage-note"><span class="mini-label">ONE CONTINUOUS WORKFLOW</span><strong>Measure. Calculate. Carry it forward.</strong><svg class="icon"><use href="#arrow"/></svg></div>
+          <span class="stage-label stage-label-bottom">Real app screens. Real working tools.</span>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>LESS RE-ENTRY. MORE TIME ON THE JOB.</span><a href="#tools">Meet your toolkit <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <div class="feature-strip">
+      <div class="container strip-grid">
+        <span><svg class="icon"><use href="#offset-icon"/></svg> Four field calculators</span>
+        <span><svg class="icon"><use href="#ruler-icon"/></svg> Fractions &amp; mixed units</span>
+        <span><svg class="icon"><use href="#folder-icon"/></svg> Jobs &amp; revision history</span>
+        <span><svg class="icon"><use href="#document-icon"/></svg> Shareable PDF cut sheets</span>
+      </div>
+    </div>
+
+    <section id="tools" class="section tools-section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">01 / THE CALCULATORS</p><h2>Four tools.<br>One less thing to juggle.</h2></div><p>Start with the measurement in front of you. Get the numbers you need, see the formula, and move straight into the next step.</p></div>
+        <div class="tool-tabs" role="tablist" aria-label="Explore the calculators">
+          <button id="tab-offset" type="button" role="tab" aria-selected="true" aria-controls="panel-offset" tabindex="0"><svg class="icon"><use href="#offset-icon"/></svg> Simple Offset</button>
+          <button id="tab-rolling" type="button" role="tab" aria-selected="false" aria-controls="panel-rolling" tabindex="-1"><svg class="icon"><use href="#rolling-icon"/></svg> Rolling Offset</button>
+          <button id="tab-cut" type="button" role="tab" aria-selected="false" aria-controls="panel-cut" tabindex="-1"><svg class="icon"><use href="#cut-icon"/></svg> Cut Length</button>
+          <button id="tab-math" type="button" role="tab" aria-selected="false" aria-controls="panel-math" tabindex="-1"><svg class="icon"><use href="#math-icon"/></svg> Length &amp; Fraction Math</button>
+        </div>
+        <div class="tool-panel" id="panel-offset" role="tabpanel" aria-labelledby="tab-offset" tabindex="0">
+          <div class="tool-panel-copy"><span class="pill">FREE · UNLIMITED CALCULATIONS</span><h3>Turn an offset<br>into your next move.</h3><p>Enter an offset and fitting angle. See Travel, Run, and both multipliers together, with a schematic to put the result in context.</p><ul class="check-list"><li>Quick angles: 22.5°, 30°, 45°, and 60°</li><li>Custom angles between 0° and 90°</li><li>Send the original Travel value directly to Cut Length</li></ul><div class="formula-block"><span>THE FORMULA, RIGHT THERE</span><code>Travel = Offset ÷ sin(Angle)</code><code>Run = Offset ÷ tan(Angle)</code></div></div>
+          <div class="tool-panel-visual"><div class="measurement-line" aria-hidden="true"><span>OFFSET → TRAVEL → RUN</span></div><div class="phone tool-phone"><img src="website-assets/offset.png" alt="Simple Offset result screen showing Travel and Run" width="1206" height="2622" loading="lazy"></div><span class="screen-caption">Simple Offset · actual iPhone screen</span></div>
+        </div>
+        <div class="tool-panel" id="panel-rolling" role="tabpanel" aria-labelledby="tab-rolling" tabindex="0" hidden>
+          <div class="tool-panel-copy"><span class="pill">FREE · UNLIMITED CALCULATIONS</span><h3>Rise. Roll.<br>See the whole offset.</h3><p>Combine vertical Rise and horizontal Roll to solve a rolling offset. Choose Up or Down and Left or Right to match your setup.</p><ul class="check-list"><li>True Offset, Travel, and Run in one result</li><li>Roll Angle for the offset orientation</li><li>A schematic, formula details, and original values</li></ul><div class="formula-block"><span>START WITH THE TRUE OFFSET</span><code>True Offset = √(Rise² + Roll²)</code><code>Travel = True Offset ÷ sin(Angle)</code></div></div>
+          <div class="tool-panel-visual"><div class="measurement-line" aria-hidden="true"><span>RISE + ROLL → TRUE OFFSET</span></div><div class="phone tool-phone"><img src="website-assets/rolling.png" alt="Rolling Offset results in dark mode with Rise and Roll diagram" width="1206" height="2622" loading="lazy"></div><span class="screen-caption">Rolling Offset · actual iPhone screen</span></div>
+        </div>
+        <div class="tool-panel" id="panel-cut" role="tabpanel" aria-labelledby="tab-cut" tabindex="0" hidden>
+          <div class="tool-panel-copy"><span class="pill">FREE · UNLIMITED CALCULATIONS</span><h3>From travel length<br>to a cut length.</h3><p>Subtract the fitting takeout at each end. Enter your values manually, use the same takeout on both ends, or apply your own saved presets with Pro.</p><ul class="check-list"><li>Independent Takeout A and Takeout B, with their own units</li><li>Continue from an offset without retyping or rounding Travel</li><li>Save the calculation as a job record</li></ul><div class="formula-block"><span>YOUR TAKEOUTS. A CLEAR RESULT.</span><code>Cut = Travel − Takeout A − Takeout B</code><p>Takeout dimensions come from you or your verified source.</p></div></div>
+          <div class="tool-panel-visual"><div class="measurement-line" aria-hidden="true"><span>TRAVEL − TAKEOUTS → CUT</span></div><div class="phone tool-phone"><img src="website-assets/cut.png" alt="Cut Length screen showing fitting takeouts and the calculated pipe cut length" width="1206" height="2622" loading="lazy"></div><span class="screen-caption">Cut Length · actual iPhone screen</span></div>
+        </div>
+        <div class="tool-panel" id="panel-math" role="tabpanel" aria-labelledby="tab-math" tabindex="0" hidden>
+          <div class="tool-panel-copy"><span class="pill">FREE · UNLIMITED CALCULATIONS</span><h3>Work in feet,<br>inches, and fractions.</h3><p>Add or subtract lengths in different units. Multiply or divide a length by a number, or divide one length by another to get a ratio.</p><ul class="check-list"><li>Feet, inches, fractional inches, mm, cm, and m</li><li>Mixed-unit addition and subtraction</li><li>Length × number, length ÷ number, and length ÷ length</li></ul><div class="formula-block"><span>EVERYDAY LENGTH MATH</span><code>6′ 4⅜″ + 250 mm</code><code>Length ÷ Length = Ratio</code><p>Use the fraction keypad for familiar field measurements.</p></div></div>
+          <div class="tool-panel-visual"><div class="measurement-line" aria-hidden="true"><span>IMPERIAL + METRIC, TOGETHER</span></div><div class="phone tool-phone"><img src="website-assets/overview.png" alt="The Tools home screen listing all four calculators, including Length and Fraction Math" width="1206" height="2622" loading="lazy"></div><span class="screen-caption">Four-tool home · actual iPhone screen</span></div>
+        </div>
+        <noscript><p class="no-script-note">Calculator tabs need JavaScript. All four calculators are free: Simple Offset solves Travel and Run; Rolling Offset also solves True Offset and Roll Angle; Cut Length subtracts two takeouts; Length &amp; Fraction Math supports mixed-unit length arithmetic, scaling, and ratios.</p></noscript>
+      </div>
+    </section>
+
+    <section class="section fraction-section">
+      <div class="container fraction-grid">
+        <div class="fraction-visual"><div class="fraction-number" aria-hidden="true">7<span>½</span><small>INCHES</small></div><div class="phone fraction-phone"><img src="website-assets/fractions.png" alt="The native fraction keypad with numerator, denominator, fraction shortcuts, and a Next button" width="1206" height="2622" loading="lazy"></div></div>
+        <div class="fraction-copy"><p class="eyebrow">INPUT THAT SPEAKS YOUR LANGUAGE</p><h2>Fractions in.<br>Clarity out.</h2><p class="lead">Keep the way you measure. Let the toolkit handle the conversion.</p><div class="detail-stack"><div><h3>A keypad made for measurements</h3><p>Enter whole inches, numerators, and denominators. Use fraction shortcuts, clear, backspace, and Next to move through the fields.</p></div><div><h3>Mix units without extra steps</h3><p>Each length field can use its own unit: feet, inches, mm, cm, or m. Unit helpers keep conversions close at hand.</p></div><div><h3>Choose how results read</h3><p>Display imperial results to ⅛″, ¹⁄₁₆″, ¹⁄₃₂″, or ¹⁄₆₄″. Use 1 mm or 0.1 mm for metric, and choose feet + inches or total inches.</p></div><div><h3>Keep the original numbers</h3><p>Display rounding stays separate from calculation values. Inspect the formula and original values before carrying a result forward.</p></div></div></div>
+      </div>
+    </section>
+
+    <section id="workflow" class="section workflow-section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">02 / FROM MEASUREMENT TO CUT SHEET</p><h2>The numbers move.<br>You keep working.</h2></div><p>A result is only the start. Carry it into a cut, keep it with the job, and turn selected records into a readable PDF.</p></div>
+        <ol class="workflow-steps"><li><span>01</span><h3>Calculate</h3><p>Solve a simple or rolling offset and review the result.</p></li><li><span>02</span><h3>Set the cut</h3><p>Carry over Travel and apply your fitting takeouts.</p></li><li><span>03</span><h3>Save the record</h3><p>Add a job, spool ID, pipe label, quantity, and notes.</p></li><li><span>04</span><h3>Share the sheet</h3><p>Select and reorder cut records, then export a PDF.</p></li></ol>
+        <article class="feature-story job-story">
+          <div class="story-copy"><svg class="feature-icon"><use href="#folder-icon"/></svg><p class="eyebrow">JOBS &amp; SAVED RECORDS</p><h3>Keep the job.<br>Keep the context.</h3><p>Group your work by job name, number, and area. Give each record the spool ID, pipe label, quantity, and notes that make it useful later.</p><ul class="check-list"><li>Saved inputs, results, formulas, source, and display settings</li><li>Edit a calculation as a new revision; keep its history</li><li>Duplicate records for similar work, or delete what you no longer need</li></ul><p class="feature-footnote">Free: 1 current job and 5 current records across the library. Deleting a record frees a slot; revisions do not use extra slots. Pro removes these limits.</p></div>
+          <div class="story-visual"><div class="tablet tablet-landscape"><img src="website-assets/job.png" alt="An iPad job record showing spool details, quantity, cut length, inputs, and revision history" width="2752" height="2064" loading="lazy"></div><p class="screen-caption">Your measurements, with the details that give them meaning.</p></div>
+        </article>
+        <article class="feature-story pdf-story">
+          <div class="story-copy"><svg class="feature-icon"><use href="#document-icon"/></svg><p class="eyebrow">PDF CUT SHEETS</p><h3>Make the next<br>handoff a clear one.</h3><p>Create a cut sheet from a single eligible record or a selected batch. Put rows in the order you want and choose the layout that fits the job.</p><ul class="check-list"><li>US Letter or A4; English or Spanish</li><li>Choose units and precision; include labels, quantities, and notes</li><li>Preview, save, or share through the system share sheet</li><li>Reopen an export or regenerate its saved snapshot</li></ul><p class="feature-footnote">The saved export keeps its original content when a record changes later. Free includes 1 successful PDF export with up to 5 rows; Pro adds unlimited exports. Reopening or sharing the same export does not use another allowance.</p></div>
+          <div class="story-visual"><div class="tablet tablet-landscape"><img src="website-assets/pdf.png" alt="An iPad PDF preview of a pipe cut sheet with job and spool information" width="2752" height="2064" loading="lazy"></div><p class="screen-caption">A PDF you can take into Files, a message, or your usual workflow.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="widgets" class="section dark-section widgets-section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">03 / AT A GLANCE. AT YOUR FINGERTIPS.</p><h2>Your next calculation<br>starts on the Home Screen.</h2></div><p>Check a recent result or work through a quick calculation. Widgets are included in the free toolkit.</p></div>
+        <div class="widget-grid">
+          <div class="widget-showcase">
+            <div class="widget-card native-large"><svg viewBox="73 202 1023 1072" role="img" aria-label="Actual large iOS widget with offset inputs, a fraction keypad, and a Travel result"><image href="website-assets/widgets.png" x="0" y="0" width="1170" height="2532"/></svg></div>
+            <div class="widget-card native-medium"><svg viewBox="73 1379 1023 480" role="img" aria-label="Actual medium iOS widget with quick angle buttons and offset controls"><image href="website-assets/widgets.png" x="0" y="0" width="1170" height="2532"/></svg></div>
+            <span class="screen-caption">Actual iOS widgets · same slot, shared working state</span>
+          </div>
+          <div class="widget-details"><div class="widget-detail"><span class="widget-size">S</span><div><h3>Small. A quick check.</h3><p>See the recent valid result or status, then open the app to continue.</p></div></div><div class="widget-detail"><span class="widget-size">M</span><div><h3>Medium. A quick offset.</h3><p>Adjust Simple Offset inputs with increment and decrement controls, select a common angle, and calculate.</p></div></div><div class="widget-detail"><span class="widget-size">L</span><div><h3>Large. More room to work.</h3><p>Use Simple Offset or Cut Length with field switching, numeric and fraction buttons, clear, backspace, and Calculate.</p></div></div><div class="widget-slot"><svg class="icon"><use href="#widget-icon"/></svg><div><h3>Four slots. Separate setups.</h3><p>Keep up to four independent widget drafts. Widgets using the same slot share its state. Open in app carries the original inputs and available result into the calculator.</p></div></div><p class="feature-footnote">Widget calculations do not automatically create job records. Rolling Offset and Length &amp; Fraction Math are available inside the app.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reference-section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">04 / YOUR EVERYDAY REFERENCES</p><h2>Keep the useful details<br>close to the calculation.</h2></div><p>Quick references for common checks. Personal takeout presets for the fittings you use.</p></div>
+        <div class="reference-grid"><article class="reference-card"><div class="card-top"><svg class="feature-icon"><use href="#ruler-icon"/></svg><span class="pill">INCLUDED FREE</span></div><h3>A pocket reference.<br>Available offline.</h3><p>Review the formulas behind Simple Offset, Rolling Offset, and Cut Length. Check unit conversions and a fraction table in ¹⁄₁₆″ increments, with decimal inches and millimeters.</p><div class="conversion-table" aria-label="Example unit conversions"><div><span>1 inch</span><strong>25.4 mm</strong></div><div><span>1 foot</span><strong>12 inches</strong></div><div><span>1 yard</span><strong>36 inches</strong></div><div><span>1 meter</span><strong>1,000 mm</strong></div></div></article><article class="reference-card preset-card"><div class="card-top"><svg class="feature-icon"><use href="#cut-icon"/></svg><span class="pill pill-dark">PRO FEATURE</span></div><h3>Your fitting takeouts.<br>Ready to use again.</h3><p>Create, edit, and apply personal presets with a name, pipe and fitting details, takeout value, unit, and source notes.</p><div class="preset-spec"><span>PRESET DETAILS</span><dl><div><dt>Name &amp; description</dt><dd>Recognize the fitting</dd></div><div><dt>Value &amp; unit</dt><dd>Use your verified dimension</dd></div><div><dt>Source notes</dt><dd>Keep the reference with it</dd></div></dl></div><p class="feature-footnote">Presets are user-entered, not a manufacturer dimensions library. Updating a preset does not change older saved calculations. Manual takeout entry is always free.</p></article></div>
+      </div>
+    </section>
+
+    <section class="section device-section">
+      <div class="container device-grid">
+        <div class="device-copy"><p class="eyebrow">05 / MAKE IT YOUR TOOLKIT</p><h2>Your screen.<br>Your units.<br><span>Your language.</span></h2><p class="lead">Native layouts for iPhone and iPad, with room to work in portrait or landscape.</p><div class="device-features"><div><svg class="icon"><use href="#globe-icon"/></svg><p><strong>English &amp; Spanish</strong><span>Change the app language without changing your units. Choose the PDF language separately.</span></p></div><div><svg class="icon"><use href="#spark-icon"/></svg><p><strong>Light, Dark, or System</strong><span>Choose your appearance, display precision, default export options, and haptic feedback.</span></p></div><div><svg class="icon"><use href="#check"/></svg><p><strong>iOS &amp; iPadOS 17 or later</strong><span>The core tools, languages, appearance settings, and references are included free.</span></p></div></div></div>
+        <div class="device-stage"><div class="tablet tablet-portrait"><img src="website-assets/ipad.png" alt="The English Pipefitter Tools screen on iPad in light mode" width="2064" height="2752" loading="lazy"></div><div class="phone spanish-phone"><img src="website-assets/spanish.png" alt="Pipefitter Tools in Spanish and dark mode on iPhone" width="1206" height="2622" loading="lazy"></div><span class="language-label">Hello, field.<br><strong>Hola, trabajo.</strong></span></div>
+      </div>
+    </section>
+
+    <section id="data" class="section data-section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">06 / KEEP CONTROL OF YOUR WORK</p><h2>Local by default.<br>Portable when you need it.</h2></div><p>No account setup or advertising. Your job library stays on the device, with manual backups you can take with you.</p></div>
+        <div class="data-grid"><article><svg class="feature-icon"><use href="#folder-icon"/></svg><h3>Your job library,<br>on your device.</h3><p>Calculate, save, and review your work locally. There is no app-operated cloud account or business-data sync service.</p></article><article><svg class="feature-icon"><use href="#backup-icon"/></svg><h3>Free backup.<br>Thoughtful import.</h3><p>Export jobs, all revisions, presets, settings, and saved export snapshots to a file in Files or iCloud Drive. Review an import before merging it; duplicates are skipped and conflicting versions are kept separately.</p><p class="feature-footnote">Backup is manual, not automatic sync. PDF files and widget drafts are excluded; PDFs can be regenerated from saved export snapshots.</p></article><article><svg class="feature-icon"><use href="#lock-icon"/></svg><h3>Optional analytics.<br>Your choice.</h3><p>You can decline usage analytics and keep using the toolkit. Analytics through Umeng starts only after in-app permission and system tracking authorization; it can be switched off in Settings.</p><p class="feature-footnote">Usage events exclude measurement values, job names, notes, and PDF content. Device, network, and usage information may be processed when enabled.</p><a class="text-link" href="privacy.html">Read the privacy policy <svg class="icon"><use href="#arrow"/></svg></a></article></div>
+      </div>
+    </section>
+
+    <section id="plans" class="section plans-section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">07 / START FREE. GO FURTHER.</p><h2>The core tools are free.<br>Pro gives your jobs room.</h2></div><p>A one-time Pro purchase. No subscription. Choose the extra capacity when your workflow needs it.</p></div>
+        <div class="plan-grid"><article class="plan-card"><span class="eyebrow">THE FREE TOOLKIT</span><h3>Start with the work.</h3><p class="plan-description">All four calculators. All the essentials.</p><ul class="plan-list"><li><svg class="icon"><use href="#check"/></svg> Unlimited use of all four calculators</li><li><svg class="icon"><use href="#check"/></svg> Fraction input, mixed units, and precision settings</li><li><svg class="icon"><use href="#check"/></svg> Small, Medium, and Large widgets; four slots</li><li><svg class="icon"><use href="#check"/></svg> Offline reference, languages, and appearance</li><li><svg class="icon"><use href="#check"/></svg> Manual takeouts, full backup, and import</li></ul><div class="plan-limits"><span>INCLUDED CAPACITY</span><p><strong>1</strong> current job <span>·</span> <strong>5</strong> current records</p><p><strong>1</strong> successful PDF export, up to <strong>5</strong> rows</p></div><a class="button button-dark" href="#availability">See launch availability <svg class="icon"><use href="#arrow"/></svg></a></article><article class="plan-card pro-plan"><span class="plan-badge">ONE-TIME UPGRADE</span><span class="eyebrow">PIPEFITTER PRO</span><h3>More jobs.<br>Same focused toolkit.</h3><p class="plan-description">Everything in Free, with room for larger workflows.</p><ul class="plan-list"><li><svg class="icon"><use href="#check"/></svg> Unlimited jobs and saved records</li><li><svg class="icon"><use href="#check"/></svg> Unlimited PDF cut-sheet exports</li><li><svg class="icon"><use href="#check"/></svg> Create, edit, and apply personal takeout presets</li><li><svg class="icon"><use href="#check"/></svg> Restore your purchase through Apple</li></ul><div class="pro-plan-note"><strong>Buy once. Keep it simple.</strong><p>Pro is a non-consumable in-app purchase. Launch pricing will be shown in the app.</p></div><a class="button button-amber" href="#availability">Coming soon to the App Store <svg class="icon"><use href="#arrow"/></svg></a></article></div>
+        <p class="plan-fine-print">Free limits count current jobs and logical records, not revision history. Reopening or sharing the same PDF export does not consume another export. A new export after changing its content, language, units, or precision requires Pro once the free export has been used.</p>
+      </div>
+    </section>
+
+    <section id="questions" class="section faq-section">
+      <div class="container faq-grid"><div><p class="eyebrow">A FEW PRACTICAL ANSWERS</p><h2>Before you<br>get to work.</h2><p>Clear expectations are part of a useful toolkit.</p></div><div class="faq-list">
+        <details><summary>Can I use it without an internet connection?</summary><p>Yes. The calculators, reference tables, local job library, widgets, and PDF generation work on the device. Purchasing or restoring Pro requires access to Apple’s purchase services. Saving a backup to a cloud provider may also need connectivity.</p></details>
+        <details><summary>Can I mix imperial and metric measurements?</summary><p>Yes. Length fields have their own units, so you can work with feet, inches, fractions, mm, cm, and m in one calculation. Choose the output units and display precision separately.</p></details>
+        <details><summary>Does the app include manufacturer fitting dimensions?</summary><p>No. Enter takeout dimensions from your verified source, or save your own personal presets with Pro. The formula and unit references are calculation aids; check your drawing, specification, fitting data, and job requirements before fabrication.</p></details>
+        <details><summary>What can I calculate in a widget?</summary><p>Medium widgets support Simple Offset. Large widgets support Simple Offset or Cut Length with button-based numeric and fraction entry. Small widgets display a recent result or status. Rolling Offset and Length &amp; Fraction Math are available in the app. Four slots let you keep independent working setups.</p></details>
+        <details><summary>Does backup sync my devices automatically?</summary><p>No. Export a backup file and import it on the other device. You choose its location in Files, including iCloud Drive if available. The backup includes jobs, revision history, presets, settings, and export snapshots; it excludes PDF files and widget drafts.</p></details>
+        <details><summary>Is Pro a subscription? What does Restore recover?</summary><p>Pro is a one-time, non-consumable purchase. Restore Purchases recovers the Pro entitlement through Apple, not your job library. To move or recover job data, use a backup file. Purchase entitlements and the local free-PDF allowance are not imported from backups.</p></details>
+        <details><summary>Do I need an account or have to enable analytics?</summary><p>No account is required. Usage analytics is optional and requires both in-app permission and system tracking authorization. Declining it does not block the tools, and you can switch it off in the app’s Privacy &amp; Safety settings.</p></details>
+        <details><summary>Which devices and languages are supported?</summary><p>Pipefitter is built for iPhone and iPad running iOS or iPadOS 17 or later. The app supports English and Spanish, portrait and landscape layouts, and Light, Dark, or System appearance. PDF language can be selected independently.</p></details>
+      </div></div>
+    </section>
+
+    <section id="availability" class="availability-section">
+      <div class="container availability-grid"><div><p class="eyebrow">PIPEFITTER FIELD TOOLKIT</p><h2>Good pipe work starts<br>with good numbers.</h2><p>Keep a capable toolkit within reach—from the first offset to the final cut sheet.</p><div class="button-row"><button class="button button-dark" type="button" data-open-demo><svg class="icon play-icon"><use href="#play"/></svg> Watch the 26-second demo</button><a class="text-link" href="#tools">Explore every tool <svg class="icon"><use href="#arrow"/></svg></a></div></div><div class="launch-card"><img src="website-assets/app-icon.png" width="88" height="88" alt="Pipefitter app icon" loading="lazy"><span class="launch-status"><span class="status-dot"></span> COMING SOON</span><h3>For iPhone &amp; iPad</h3><p>App Store release is coming soon.<br>The download link will be added at launch.</p><span class="launch-meta">iOS 17+ · English &amp; Spanish</span></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><a class="brand" href="#top"><img src="website-assets/app-icon.png" width="36" height="36" alt=""><span>PIPEFITTER<small>FIELD TOOLKIT</small></span></a><p>Made for the measurement in front of you.</p><div><a href="privacy.html">Privacy policy</a><a href="#questions">FAQ</a><a href="#top">Back to top ↑</a></div></div><div class="container footer-bottom"><span>© <span id="copyright-year">2026</span> Pipefitter Field Toolkit.</span><span>Apple, iPhone, iPad, and App Store are trademarks of Apple Inc.</span></div></footer>
+
+  <dialog id="demo-dialog" class="demo-dialog" aria-labelledby="demo-title"><div class="demo-heading"><div><span class="eyebrow">A LOOK INSIDE</span><h2 id="demo-title">From offset to cut sheet.</h2></div><button class="dialog-close" type="button" aria-label="Close app demo">×</button></div><video id="app-demo" controls playsinline preload="none" poster="website-assets/demo-poster.jpg" aria-label="26-second Pipefitter app demonstration" aria-describedby="demo-description"><source src="website-assets/demo.mp4" type="video/mp4">Your browser does not support embedded video. <a href="website-assets/demo.mp4">Open the app demo.</a></video><p id="demo-description">Actual app recording: calculate an offset, carry Travel into Cut Length, save a job record, preview a PDF, enter fractions, and switch to Spanish in dark mode.</p></dialog>
+</body>
+</html>
